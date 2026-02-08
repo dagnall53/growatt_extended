@@ -46,9 +46,9 @@ After restart, the integration will automatically attach itself to the existing 
 🔧 Fixing CRLF Line Endings (Windows → Linux)
 If you edit files on Windows, you may accidentally introduce CRLF line endings, which can break Python files in Home Assistant.
 
-Use this shell command inside the integration directory to convert all files to LF:
+Use this shell command (file editor - (COG) Execute Shell Command )  to convert all files in 'custom_components/growatt_extended'  to LF:
 
-find /homeassistant/custom_components/growatt_extended -type f -exec sed -i "s/\r$//" {} \;
+<b>find /homeassistant/custom_components/growatt_extended -type f -exec sed -i "s/\r$//" {} \;</b>
 
 This ensures all Python, JSON, and manifest files use correct Unix line endings.
 
@@ -59,6 +59,7 @@ yaml
 logger:
   logs:
     custom_components.growatt_extended: debug
+    
 Then restart Home Assistant.
 
 📝 Notes
