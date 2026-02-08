@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Growatt Extended Sensors",
+        "description": "Link this integration to your existing official Growatt Server integration.\n\nEnter the **entry_id** of the official Growatt integration (e.g. `01KGYMYJCSBH6QB39VFD08ZF0M`).",
+        "data": {
+          "core_entry_id": "Official Growatt entry_id"
+        }
+      }
+    },
+    "error": {
+      "invalid_entry_id": "The entry_id does not match any loaded Growatt Server integration."
+    }
+  }
+}

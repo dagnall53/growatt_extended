@@ -1,0 +1,11 @@
+{
+  "domain": "growatt_extended",
+  "name": "Growatt Extended Sensors",
+  "version": "1.0.0",
+  "documentation": "https://github.com/dagnall53/growatt_extended",
+  "requirements": [],
+  "dependencies": ["growatt_server"],
+  "codeowners": ["@dagnall53"],
+  "iot_class": "local_polling",
+  "config_flow": true
+}
